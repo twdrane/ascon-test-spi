@@ -1,0 +1,11 @@
+# Specify hashing
+INS 20000000
+# Load message data
+INS 51000010
+DAT 1AB3C589
+DAT E3E64EC6
+DAT 1F7EC67B
+DAT F7017780
+# Interface instruction
+INS 90000000
+STOP

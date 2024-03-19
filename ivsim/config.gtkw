@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.117 (w)1999-2023 BSI
+[*] Mon Mar 18 17:19:49 2024
+[*]
+[dumpfile] "/home/twdrane/ascon/Open-Source-ASCON-ASIC/ivsim/tb.vcd"
+[dumpfile_mtime] "Mon Mar 18 17:09:11 2024"
+[dumpfile_size] 119655
+[savefile] "/home/twdrane/ascon/Open-Source-ASCON-ASIC/ivsim/config.gtkw"
+[timestart] 57000
+[size] 1463 843
+[pos] -35 -35
+*-18.000000 401000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 213
+[signals_width] 252
+[sst_expanded] 1
+[sst_vpaned_height] 237
+@821
+interface_test.line[95:0]
+@28
+interface_test.interface_clk
+interface_test.core_clk
+interface_test.rst
+interface_test.sdi
+interface_test.cs_n
+@22
+interface_test.in[31:0]
+@200
+-
+-
+@28
+interface_test.sdo
+interface_test.trig
+interface_test.valid
+interface_test.auth_fail
+@22
+interface_test.out[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

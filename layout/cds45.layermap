@@ -1,0 +1,25 @@
+extraction_setup \
+        -technology_layer_map \
+                Poly         polycide \
+                Cont         cont \
+                Metal1       metal_1 \
+                Via1         via_1 \
+                Metal2       metal_2 \
+                Via2         via_2 \
+                Metal3       metal_3 \
+                Via3         via_3 \
+                Metal4       metal_4 \
+                Via4         via_4 \
+                Metal5       metal_5 \
+                Via5         via_5 \
+                Metal6       metal_6 \
+                Via6         via_6 \
+                Metal7       metal_7 \
+                Via7         via_7 \
+                Metal8       metal_8 \
+                Via8         via_8 \
+                Metal9       metal_9 \
+                Via9         via_9 \
+                Metal10       metal_10 \
+                Via10         via_10 \
+                Metal11       metal_11

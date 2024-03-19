@@ -1,0 +1,9 @@
+# Specify hashing
+INS 20000000
+# Load message data
+INS 51000008
+DAT 00010203
+DAT 80000000
+# Interface instruction
+INS 90000000
+STOP
