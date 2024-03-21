@@ -3,7 +3,7 @@
 // available at https://github.com/rprimas/ascon-verilog 
 //
 // Author: Trevor Drane
-// Design Repository: https://github.com/twdrane/Open-Source-ASCON-ASIC
+// Design Repository: https://github.com/twdrane/ascon-test-spi
 // Designed as part of a WPI Major Qualifying Project
 
 `timescale 1ns / 1ps
