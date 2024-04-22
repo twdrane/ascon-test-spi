@@ -15,6 +15,7 @@ This interface was designed as part of a Major Qualifying Project at Worcester P
 - `ivsim/config.gtkw`: Saved GTKWave state.
 - `ivsim/Makefile`: Iverilog simulation makefile with GTKWave waveform visualization.
 - `layout/*`: Directory for layout synthesis.
+- `report.pdf`: MQP Report detailing the design and functionality of the device.
 - `rtl/ascon_spi.sv`: Verilog serial interface design.
 - `sim/interface_test.sv`: Xcelium/Vivado compatible testbench for interface simulation. Note: makefile not included.
 - `sim/sipo.sv`: SIPO module used in interface_test.sv.
@@ -42,7 +43,7 @@ The following table contains a description of the interface signals:
 | clock_clk     | Core speed clock signal.                                                     |
 | rst           | Reset signal. Note: Synchronous active high.                                 |
 | sdi           | Serial data input.                                                           |
-| cs_n		    | Chip select signal. Note: Active low.                                        |
+| cs_n		| Chip select signal. Note: Active low.                                        |
 | sdo           | Serial data output.                                                          |
 | valid         | Serial output valid Signal.                                                  |
 | auth_fail     | Internal authentication fail flag.                                           |
@@ -54,7 +55,7 @@ Look at `ivsim/interface_test.sv` for an example of how the interface can be use
 
 - Install the Icarus Verilog (iverilog) open-source verilog simulator:
   - See `https://steveicarus.github.io/iverilog/usage/installation.html`.
-  - Tested with version 12.0 and flags `-g2012`.
+  - Current testbench is NOT functional in iverilog
 - Execute verilog test bench:
   - `make`
   - Runs `ivsim/interface_test.sv` using the interface design and test vector set 1 as input.
